@@ -1,8 +1,7 @@
-// app/hooks/useOrders.ts
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { Order, PlaceOrderPayload } from "@/types";
+import { Order, PlaceOrderPayload } from "../../types";
 
 interface UseOrdersReturn {
   myOrders: Order[];
