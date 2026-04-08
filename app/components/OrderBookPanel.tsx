@@ -1,6 +1,6 @@
 "use client";
 
-import { Order, OrderBook } from "@/types";
+import { Order, OrderBook } from "../../types";
 import { useState, useEffect } from "react";
 
 interface OrderBookPanelProps {

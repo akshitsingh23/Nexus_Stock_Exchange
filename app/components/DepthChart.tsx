@@ -1,6 +1,6 @@
 "use client";
 
-import { OrderBook } from "@/types";
+import { OrderBook } from "../../types";
 import { useMemo } from "react";
 import {
   AreaChart,

@@ -3,7 +3,7 @@
 
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { Order, Trade } from "@/types";
+import { Order, Trade } from "../../types";
 import { useSocket } from "../hooks/useSocket";
 import { useOrders } from "../hooks/useOrders";
 import Header from "./Header";

@@ -1,7 +1,7 @@
 // app/components/MyOrders.tsx
 "use client";
 
-import { Order } from "@/types";
+import { Order } from "../../types";
 
 interface MyOrdersProps {
   orders: Order[];

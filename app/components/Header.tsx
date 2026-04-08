@@ -1,7 +1,7 @@
 // app/components/Header.tsx
 "use client";
 
-import { Trade, OrderBook } from "@/types";
+import { Trade, OrderBook } from "../../types";
 import { useMemo } from "react";
 import Sparkline from "./Sparkline";
 
