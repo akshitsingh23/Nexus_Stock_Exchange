@@ -1,7 +1,7 @@
 // app/api/trades/route.ts
 import { NextRequest, NextResponse } from "next/server";
-import connectDB from "@/lib/mongodb";
-import TradeModel from "@/lib/models/Trade";
+import connectDB from "../../../lib/mongodb";
+import TradeModel from "../../../lib/models/Trade";
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);

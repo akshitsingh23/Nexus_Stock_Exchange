@@ -1,7 +1,7 @@
 // app/api/orders/[id]/route.ts
 import { NextRequest, NextResponse } from "next/server";
-import connectDB from "@/lib/mongodb";
-import OrderModel from "@/lib/models/Order";
+import connectDB from "../../../../lib/mongodb";
+import OrderModel from "../../../../lib/models/order";
 
 export async function DELETE(
   req: NextRequest,
