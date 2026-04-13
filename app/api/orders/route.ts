@@ -1,7 +1,7 @@
 // app/api/orders/route.ts
 import { NextRequest, NextResponse } from "next/server";
 import connectDB from "../../../lib/mongodb";
-import OrderModel from "../../../lib/models/order";
+import OrderModel from "../../../lib/models/Order";
 import TradeModel from "../../../lib/models/Trade";
 import { PlaceOrderPayload } from "../../../types";
 

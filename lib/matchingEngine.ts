@@ -7,7 +7,7 @@
  */
 
 import { v4 as uuidv4 } from "uuid";
-import { Order, Trade, OrderBook, MatchResult, PlaceOrderPayload } from "@/types";
+import { Order, Trade, OrderBook, MatchResult, PlaceOrderPayload } from "../types";
 
 // ─── Order Factory ────────────────────────────────────────────────────────────
 
